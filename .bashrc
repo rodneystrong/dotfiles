@@ -2,6 +2,9 @@
 
 export PATH=$PATH:/opt/local/bin
 
+#For forcing the app to look for local gulp
+export PATH=$(npm bin):$PATH
+
 export HISTSIZE=100000
 
 # I like confirming destructive operations.
